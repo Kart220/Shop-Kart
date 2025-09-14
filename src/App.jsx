@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import productsData from "./data/products";
 import Header from "./components/Header";
-import ProductCard from "./components/Product Card";
+import ProductCard from "./components/ProductCard";
 
 export default function App() {
   const [query, setQuery] = useState("");
